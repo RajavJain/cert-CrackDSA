@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Certificate for Participation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="./certificate.png" alt="CrackDSA logo">
+        <h4>Get Your Certificate of Participation to</h4>
+
+        <h3 class="front">crackDSA Event</h3>
+        <!-- font-family="Motiva Sans Bold, sans-serif" fill="#18216d" font-size="5px" font-weight="700">crackDSA.com -->
+
+         <!-- <svg viewBox="0 20 280 80" xmlns="http://www.w3.org/2000/svg">
+            <text y="30" x="50" font-family="Motiva Sans Bold, sans-serif" fill="#18216d" font-size="5px" font-weight="700">crackDSA.com</text> 
+            <text y="60" x="180" font-family="Motiva Sans Bold, sans-serif" fill="#fe7624" font-size="3px" font-weight="800">Events</text>
+          </svg>  -->
+    </header>
+    <main>
+
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="Name" id="name" minlength="3"
+            maxlength="16">
+        <Button id="submitBtn">Get Certificate</Button>
+
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
